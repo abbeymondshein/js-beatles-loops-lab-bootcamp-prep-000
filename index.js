@@ -8,10 +8,10 @@
 //iteration: A statement executed at the end of each iteration. Typically, this will involve incrementing or decrementing a counter, bringing the loop ever closer to its end
 //loopBody: Code which runs on every iteration as long as the condition evaluates to true
 //Use a for loop when you know how many times you want the loop to run (for example, when you have an array of known size).
-function theBeatlesPlay(musiciansArray,instrumentsArray){
+function theBeatlesPlay(musicians,instruments){
   var emptyArray = [];
-  for (i=0;i<musiciansArray.length; i++) {
-    emptyArray.push(musiciansArray[i]+" plays "+instrumentsArray[i])
+  for (i=0;i<musicians.length; i++) {
+    emptyArray.push(musicians[i]+" plays "+instruments[i])
   }
   return emptyArray;
 }
