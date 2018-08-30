@@ -28,7 +28,9 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(number){
   let emptyArray = [];
   do {
-    //
+  emptyArray.push("I love the Beatles!");
+  number++;
   }
-  while();
+  while(number<15);
+  return emptyArray;
 }
