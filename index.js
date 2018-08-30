@@ -10,7 +10,7 @@
 //Use a for loop when you know how many times you want the loop to run (for example, when you have an array of known size).
 function theBeatlesPlay(musicians,instruments){
   var emptyArray = [];
-  for (i=0;i<musicians.length; i++) {
+  for (let i=0;i<musicians.length; i++) {
     emptyArray.push(musicians[i]+" plays "+instruments[i])
   }
   return emptyArray;
